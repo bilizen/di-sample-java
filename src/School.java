@@ -1,11 +1,11 @@
 public class School {
 
-    private String name;
     private Teacher teacher;
+    private Subject subject;
 
     public School() {
-        name = "San Juan";
-        teacher = new Teacher();
+        subject= new Subject("Math");
+        teacher = new Teacher(subject,"Sara");
     }
 
     public void getNameTeacher(){

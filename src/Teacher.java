@@ -2,9 +2,9 @@ public class Teacher {
     String name;
     Subject subject;
 
-    public Teacher() {
-        subject = new Subject("language");
-        name = "Sara";
+    public Teacher( Subject subject,String name) {
+        this.subject= subject;
+        this.name = name;
     }
 
     public String getName() {

@@ -1,9 +1,9 @@
 public class Main {
 
     public static void main(String[] args) {
-        School school= new School();
-        school.getNameSchool();
-        school.getNameTeacher();
+        Classroom classroom= new Classroom();
+        classroom.getNameSchool();
+        classroom.getNameTeacher();
 
     }
 }
